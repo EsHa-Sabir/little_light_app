@@ -1,0 +1,2 @@
+D:/FYP PROJECT/fyp_project/android/app/.cxx/RelWithDebInfo/3p2f582h/x86/CMakeFiles/edit_cache.dir
+D:/FYP PROJECT/fyp_project/android/app/.cxx/RelWithDebInfo/3p2f582h/x86/CMakeFiles/rebuild_cache.dir
