@@ -160,6 +160,7 @@ flutter:
     - assets/images/request/
     - assets/images/volunteer/
     - assets/images/admin/
+    - assets/LittleLight_UI.pdf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
