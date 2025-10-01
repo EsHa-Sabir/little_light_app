@@ -3,7 +3,7 @@
 Welcome to the official repository for **Little Light**, a comprehensive, role-based donation platform designed to connect those in need with those who can help. Built with Flutter, this application provides a seamless and secure ecosystem for donors, requesters, and delivery personnel, all managed through a powerful admin panel. This project was developed as a Final Year Project.
 
 <p align="center">
-  <img src="assets/readme_images/8.png" width="300" alt="Home Screen">
+  <img src="assets/readme_images/8.png" width="300" alt="Donor Home Screen">
 </p>
 
 ---
@@ -16,20 +16,21 @@ The mission of **Little Light** is to bring "Light in the darkness" by creating 
 
 ## 🔑 Key Features
 
-- **Four Unique User Roles:** A complete system with separate interfaces for **Donors**, **Requesters**, **Delivery Personnel**, and **Admins**.
-- **Multiple Donation Types:** Supports donations of Food, Clothes, Books, and Financial aid.
-- **Real-time Communication:** In-app chat with voice messaging capabilities.
-- **Live GPS Tracking:** Real-time tracking of donation pickups and deliveries.
-- **Secure Payments:** Integrated with Stripe and local payment gateways.
-- **Push Notifications:** Powered by OneSignal to keep users updated on their status.
-- **Reporting & Analytics:** Users can view detailed reports of their donation history and impact.
+- **Four Unique User Roles:** A complete system with separate interfaces and functionalities for **Donors**, **Requesters**, **Delivery Personnel**, and **Admins**.
+- **Multiple Donation Types:** Supports donations of Food, Clothes, Books, and Financial aid (Education, Weddings, Medical).
+- **Real-time Communication:** In-app chat with voice messaging capabilities for seamless interaction.
+- **Live GPS Tracking:** Donors, requesters, and delivery personnel can track real-time delivery status on a map.
+- **Secure Payments:** Integrated with Stripe and local payment gateways like Easypaisa and JazzCash for financial donations.
+- **Real-time Notifications:** Push notifications powered by OneSignal for instant updates on donation and request statuses.
+- **Comprehensive Admin Panel:** A powerful web-based interface for managing users, donations, requests, and funds.
+- **Reporting & Analytics:** Detailed reports and graphs for donors (donation history) and admin (overall platform performance).
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Framework:** **Flutter** (for Android & iOS)
-- **Backend:** **Firebase** (Firestore, Authentication, Storage)
+- **Framework:** **Flutter** - For a beautiful, high-performance, cross-platform experience on Android & iOS.
+- **Backend:** **Firebase** (Firestore, Authentication, Storage) - For a scalable, real-time backend.
 - **State Management:** **Provider**
 - **Payment Gateways:** **Stripe**, **Easypaisa**, **JazzCash**
 - **Mapping & Geolocation:** **Google Maps API**
@@ -38,47 +39,109 @@ The mission of **Little Light** is to bring "Light in the darkness" by creating 
 
 ---
 
-## 📸 Application Walkthrough
+## 📸 Application Walkthrough (Complete Screenshots)
 
-A visual tour of the "Little Light" mobile application.
+A comprehensive visual tour of the "Little Light" mobile application, showcasing every key screen and user journey.
 
-### 1. User Roles & Dashboards
-The app provides a unique and tailored experience for each user role.
-
-<p align="center">
-  <img src="assets/readme_images/8.png" width="200" alt="Donor Dashboard">
-  <img src="assets/readme_images/24.png" width="200" alt="Requester Profile/Dashboard">
-  <img src="assets/readme_images/30.png" width="200" alt="Delivery Personnel Dashboard">
-  <img src="assets/readme_images/44.png" width="200" alt="Admin Dashboard">
-</p>
-
-### 2. The Donation & Request Flow
-A seamless process for both donating and requesting help.
+### 1. Welcome & Authentication
+The initial entry points for users, including splash screen, onboarding, login, and registration.
 
 <p align="center">
-  <img src="assets/readme_images/11.png" width="200" alt="Donation Categories">
-  <img src="assets/readme_images/15.png" width="200" alt="Food Donation Form">
-  <img src="assets/readme_images/12.png" width="200" alt="View Food Requests">
-  <img src="assets/readme_images/25.png" width="200" alt="Create a Request Form">
-</p>
-
-### 3. Core Features in Action
-From live tracking to real-time chat and notifications.
-
-<p align="center">
-  <img src="assets/readme_images/36.jpg" width="200" alt="Live GPS Tracking">
-  <img src="assets/readme_images/40.jpg" width="200" alt="In-App Chat">
-  <img src="assets/readme_images/22.png" width="200" alt="Notifications">
-  <img src="assets/readme_images/38.jpg" width="200" alt="Donation Reports">
-</p>
-
-### 4. User Authentication
-A simple and secure authentication flow.
-
-<p align="center">
-  <img src="assets/readme_images/2.png" width="200" alt="Login Screen">
-  <img src="assets/readme_images/3.png" width="200" alt="Sign Up Screen">
+  <img src="assets/readme_images/1.png" width="200" alt="Splash Screen">
   <img src="assets/readme_images/4.png" width="200" alt="Forgot Password">
+  <img src="assets/readme_images/5.png" width="200" alt="Verification - Set Password">
+  <img src="assets/readme_images/6.png" width="200" alt="Verification Complete">
+</p>
+<p align="center">
+  <img src="assets/readme_images/7.png" width="200" alt="Forgot Password - Via Email">
+  <img src="assets/readme_images/9.png" width="200" alt="Login Screen">
+  <img src="assets/readme_images/10.png" width="200" alt="App Logo Splash">
+</p>
+
+### 2. Donor's Journey 💖
+Donors can easily contribute items or funds, view requests, and track their impact.
+
+#### Donor Dashboard & Making a Donation
+<p align="center">
+  <img src="assets/readme_images/3.png" width="200" alt="Donor Register">
+  <img src="assets/readme_images/8.png" width="200" alt="Donor Home Screen">
+  <img src="assets/readme_images/11.png" width="200" alt="Custom Donation Types">
+  <img src="assets/readme_images/14.png" width="200" alt="Donation Forms List">
+</p>
+<p align="center">
+  <img src="assets/readme_images/15.png" width="200" alt="Food Donation Form">
+  <img src="assets/readme_images/16.png" width="200" alt="Financial Support Categories">
+  <img src="assets/readme_images/17.png" width="200" alt="Financial Donation Form">
+  <img src="assets/readme_images/33.png" width="200" alt="Stripe Payment Gateway">
+</p>
+
+#### Viewing Requesters & Pickup Requests
+<p align="center">
+  <img src="assets/readme_images/18.png" width="200" alt="View Requesters List">
+  <img src="assets/readme_images/12.png" width="200" alt="Specific Food Requesters">
+  <img src="assets/readme_images/13.png" width="200" alt="Requester Details with Map">
+  <img src="assets/readme_images/19.png" width="200" alt="Create Pickup Request Form">
+</p>
+
+#### Donation History & Reports
+<p align="center">
+  <img src="assets/readme_images/21.png" width="200" alt="Donation History List">
+  <img src="assets/readme_images/38.jpg" width="200" alt="My Donation Report Pie Chart">
+  <img src="assets/readme_images/39.jpg" width="200" alt="Ayesha's Donation Report">
+</p>
+
+### 3. Requester's Journey 🙏
+Requesters can easily submit their needs and track the status of their requests.
+
+<p align="center">
+  <img src="assets/readme_images/23.png" width="200" alt="Onboarding - Request with Dignity">
+  <img src="assets/readme_images/24.png" width="200" alt="Requester Profile">
+  <img src="assets/readme_images/25.png" width="200" alt="Create a Request Form">
+  <img src="assets/readme_images/26.png" width="200" alt="Request Submitted Confirmation">
+</p>
+<p align="center">
+  <img src="assets/readme_images/27.png" width="200" alt="Track Request Status">
+  <img src="assets/readme_images/37.jpg" width="200" alt="Requester Home with Recent Requests">
+</p>
+
+### 4. Delivery Personnel's Journey 🛵
+Delivery personnel manage pickups and drop-offs with live GPS tracking.
+
+<p align="center">
+  <img src="assets/readme_images/29.png" width="200" alt="Onboarding - Pickup & Delivery Service">
+  <img src="assets/readme_images/30.png" width="200" alt="Delivery Personnel Dashboard">
+  <img src="assets/readme_images/28.png" width="200" alt="Live Delivery Tracking Map">
+  <img src="assets/readme_images/36.jpg" width="200" alt="Live Delivery Tracking Map 2">
+</p>
+
+### 5. Common Features (Chat, Notifications, Profile Management)
+These essential features enhance user experience across all roles.
+
+<p align="center">
+  <img src="assets/readme_images/20.png" width="200" alt="Chat Inbox">
+  <img src="assets/readme_images/41.jpg" width="200" alt="Detailed Chat Inbox">
+  <img src="assets/readme_images/31.png" width="200" alt="Chat Conversation Screen 1">
+  <img src="assets/readme_images/32.png" width="200" alt="Chat Conversation Screen 2">
+</p>
+<p align="center">
+  <img src="assets/readme_images/40.jpg" width="200" alt="Chat Conversation Screen 3">
+  <img src="assets/readme_images/22.png" width="200" alt="Notifications Screen">
+  <img src="assets/readme_images/42.jpg" width="200" alt="User Profile (Fatima)">
+  <img src="assets/readme_images/43.jpg" width="200" alt="User Profile (Jannat)">
+</p>
+<p align="center">
+  <img src="assets/readme_images/35.jpg" width="200" alt="User Profile (Jenny Wilson)">
+  <img src="assets/readme_images/10.png" width="200" alt="Edit Profile (YanChui)">
+  <img src="assets/readme_images/7.png" width="200" alt="Edit Profile (Jannat)">
+</p>
+
+### 6. Admin Panel
+The central control hub for managing the entire platform.
+
+<p align="center">
+  <img src="assets/readme_images/44.png" width="200" alt="Admin Dashboard">
+  <img src="assets/readme_images/45.png" width="200" alt="Admin - Manage Users">
+  <img src="assets/readme_images/34.png" width="200" alt="Admin - View Requesters">
 </p>
 
 ---
