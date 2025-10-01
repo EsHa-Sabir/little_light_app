@@ -101,7 +101,7 @@ Requesters can easily submit their needs and track the status of their requests.
 </p>
 <p align="center">
   <img src="assets/readme_images/27.png" width="200" alt="Track Request Status">
-  <img src="assets/readme_images/37.jpg" width="200" alt="Requester Home with Recent Requests">
+  <img src="assets/readme_images/37.png" width="200" alt="Requester Home with Recent Requests">
 </p>
 
 ### 4. Delivery Personnel's Journey 🛵
