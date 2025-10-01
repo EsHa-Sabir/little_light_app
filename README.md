@@ -98,11 +98,9 @@ Requesters can easily submit their needs and track the status of their requests.
   <img src="assets/readme_images/24.png" width="200" alt="Requester Profile">
   <img src="assets/readme_images/25.png" width="200" alt="Create a Request Form">
   <img src="assets/readme_images/26.png" width="200" alt="Request Submitted Confirmation">
-</p>
-<p align="center">
   <img src="assets/readme_images/27.png" width="200" alt="Track Request Status">
-  <img src="assets/readme_images/37.png" width="200" alt="Requester Home with Recent Requests">
 </p>
+
 
 ### 4. Delivery Personnel's Journey 🛵
 Delivery personnel manage pickups and drop-offs with live GPS tracking.
